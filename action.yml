@@ -1,0 +1,20 @@
+name: 'Regex Match Unique'
+description: 'Uses provided regex to match a string and return unique values from the matched result'
+inputs:
+  text:
+    description: 'String to be processed against the regex'
+    required: true
+  regex:
+    description: 'Regex used to find matches'
+    required: true
+  flags:
+    description: 'Regex flags'
+    required: false
+    default: ''
+outputs:
+  results:
+    description: 'Set of unique matches'
+
+runs:
+  using: 'node16'
+  main: './dist/bundle.js'
