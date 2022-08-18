@@ -1,6 +1,6 @@
 {
   "name": "regex-match-unique-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Github action that uses provided regex to match a string and return unique values from the matched result",
   "main": "dist/bundle.js",
   "repository": "https://github.com/emilcieslar/regex-match-unique-action",
