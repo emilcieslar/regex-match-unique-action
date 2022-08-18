@@ -14,6 +14,8 @@ inputs:
 outputs:
   results:
     description: 'Set of unique matches'
+  results_string:
+    description: 'Set of unique matches as comma-separated string'
 
 runs:
   using: 'node16'
